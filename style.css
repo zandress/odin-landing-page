@@ -80,6 +80,7 @@ ul {
 }
 
 .info img {
+    border: #3882F6 3px solid;
     border-radius: 10px;
     max-width: 150px;
     max-height: 150px;
