@@ -6,7 +6,7 @@ header, .banner, footer {
     background-color: #1F2937;
 }
 
-.bannercontent, ul, button {
+.bannercontent, ul, button, footer{
     color: #E5E7EB;
 }
 
@@ -56,3 +56,4 @@ ul {
     flex-direction: column;
     gap: 8px;
 }
+
