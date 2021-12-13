@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header, .banner, footer {
@@ -16,9 +16,14 @@ footer {
     color: #F9FaF8;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 button {
-    background-color: #3882F6;
-    border-radius: 5px;
+    background-color: #3882f6;
+    border-radius: 4px;
     width: 100px;
     padding: 4px;
 }
@@ -158,6 +163,7 @@ ul {
 .actionbutton {
     max-height: 30px;
     align-self: center;
+    border-color: #F9FaF8;
 }
 
 footer {
