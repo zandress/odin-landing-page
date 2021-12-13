@@ -20,11 +20,13 @@ button {
 header {
     display: flex;
     justify-content: space-between;
+    padding-top: 8px;
 }
 
 .header {
     color: #F9FaF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
