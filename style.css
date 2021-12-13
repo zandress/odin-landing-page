@@ -79,7 +79,10 @@ ul {
 .card img {
     border-radius: 10px;
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    text-align: center;
 }
