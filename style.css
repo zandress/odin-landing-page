@@ -11,6 +11,11 @@ footer {
     color: #E5E7EB;
 }
 
+.header, .callaction, .actioncontent,
+.bannertop {
+    color: #F9FaF8;
+}
+
 button {
     background-color: #3882F6;
     border-radius: 5px;
@@ -25,7 +30,6 @@ header {
 }
 
 .header {
-    color: #F9FaF8;
     font-size: 24px;
     font-weight: bold;
 }
@@ -49,7 +53,6 @@ ul {
 .bannertop {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FaF8;
 }
 
 .herobanner {
@@ -124,6 +127,41 @@ ul {
     font-size: 24px;
     color: #1F2937;
     font-weight: bold;
+}
+
+.actionarea {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callaction {
+    background-color: #3882F6;
+    padding: 20px 50px;
+    max-height: 150px;
+    width: 700px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionbody {
+
+}
+
+.actionhead {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.actioncontent {
+    margin-top: 2px;
+}
+
+.actionbutton {
+    max-height: 30px;
+    align-self: center;
 }
 
 footer {
