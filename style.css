@@ -96,3 +96,12 @@ ul {
     align-items: center;
     width: 150px;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
