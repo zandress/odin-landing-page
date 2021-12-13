@@ -6,7 +6,8 @@ header, .banner, footer {
     background-color: #1F2937;
 }
 
-.bannercontent, ul, button, footer{
+.bannercontent, ul, button, 
+footer {
     color: #E5E7EB;
 }
 
@@ -57,3 +58,28 @@ ul {
     gap: 8px;
 }
 
+.contentinfo {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+}
+
+.card img {
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
